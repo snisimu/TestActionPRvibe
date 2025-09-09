@@ -5,7 +5,7 @@ module Lib
     ) where
 
 someFunc :: IO ()
-someFunc = putStrLn "Hello from Haskell!"
+someFunc = putStrLn "Hello from Haskell! This is a much longer message that displays more letters than before, making it a comprehensive and extended greeting from the Haskell programming language."
 
 addNumbers :: Int -> Int -> Int
 addNumbers x y = x + y
