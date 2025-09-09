@@ -21,5 +21,5 @@ main = hspec $ do
     
     it "calculates factorial of positive numbers" $ do
       factorial 1 `shouldBe` 1
-      factorial 3 `shouldBe` 5
+      factorial 3 `shouldBe` 6
       factorial 5 `shouldBe` 120
