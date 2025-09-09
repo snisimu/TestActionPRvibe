@@ -23,3 +23,4 @@ main = hspec $ do
       factorial 1 `shouldBe` 1
       factorial 3 `shouldBe` 6
       factorial 5 `shouldBe` 120
+a
