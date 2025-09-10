@@ -1,4 +1,4 @@
-name: Build
+name: BuildCheck
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: haskell/actions/setup@v2
+    - uses: haskell-actions/setup@v2
       with:
         enable-stack: true
         stack-version: 'latest'
